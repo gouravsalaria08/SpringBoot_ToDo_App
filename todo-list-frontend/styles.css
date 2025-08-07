@@ -1,0 +1,21 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1, h2 {
+  font-weight: 600;
+}
+
+#updateTaskSection {
+  box-shadow: 0 0 10px rgb(0 0 0 / 0.1);
+  border-radius: 8px;
+}
+
+button {
+  cursor: pointer;
+}
+
+/* Optional: add small spacing between action buttons in table */
+#taskTable button {
+  margin-right: 8px;
+}
